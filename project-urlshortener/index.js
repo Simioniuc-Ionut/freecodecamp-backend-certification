@@ -25,17 +25,17 @@ app.use('/api/shorturl', (req, res, next) => {
   }
   next();
 })
-.post('/api/shorturl', (req, res) => {
+ .post('/api/shorturl', (req, res) => {
   let url = req.body.url;
-  let shortUrl =  Math.floor(Math.random() * 1000000);
-  let response = {
-    original_url: url,
-    short_url: shortUrl
-  };
-  if (!shortUrlCache.get(shortUrl)) {
-    shortUrlCache.set(shortUrl, url);
+  // Check if URL already exists
+  for (let [key, value] of shortUrlCache.entries()) {
+    if (value === url) {
+      return res.json({ original_url: url, short_url: key });
+    }
   }
-  res.json(response);
+  let shortUrl = urlCounter++;
+  shortUrlCache.set(shortUrl, url);
+  res.json({ original_url: url, short_url: shortUrl });
 });
 app.get('/api/shorturl/:shorturl', (req, res) => {
   const originalUrl = shortUrlCache.get(Number(req.params.shorturl));
