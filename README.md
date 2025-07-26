@@ -1,5 +1,9 @@
 # FreeCodeCamp Backend Certification Projects
 
+## Certification
+
+![FreeCodeCamp Backend Certification](./certificat.png)
+
 This repository contains all the projects completed for the FreeCodeCamp Backend & APIs Certification.  
 Through these projects, I learned and practiced essential backend development skills using **Node.js**, **Express**, and various related technologies.
 
@@ -100,6 +104,3 @@ Each project is in its own folder and can be run independently.
 
 **This certification demonstrates practical backend skills, API design, data validation, documentation, and integration with databases and
 
-## Certification
-
-![FreeCodeCamp Backend Certification](./certificat.png)
