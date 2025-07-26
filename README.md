@@ -1,39 +1,101 @@
+# FreeCodeCamp Backend Certification Projects
 
-# FreeCodeCamp Backend Certification – Node.js & Express
+This repository contains all the projects completed for the FreeCodeCamp Backend & APIs Certification.  
+Through these projects, I learned and practiced essential backend development skills using **Node.js**, **Express**, and various related technologies.
+
+---
 
 ## What I Learned
 
-This certification covers the fundamentals of backend development with Node.js and Express, including:
+- **Node.js & Express:**  
+  - Setting up servers and routing
+  - Handling HTTP requests and responses
+  - Serving static files and HTML pages
 
-- Setting up Node.js projects with npm and package.json
-- Building RESTful APIs with Express
-- Handling routes, parameters, and query strings
-- Serving static files and using middleware
-- Validating and processing request data
-- Enabling CORS for remote API testing
-- Documenting APIs with Swagger
-- Using environment variables with dotenv
-- Working with Git and GitHub (fork, clone, push)
+- **API Design & RESTful Endpoints:**  
+  - Creating GET, POST endpoints
+  - Using route parameters and query parameters
+  - Returning JSON responses
 
-## Projects Completed
-- Timestamp Microservice
-- Header Parser Microservice
-- Basic Express & Node.js APIs
+- **Middleware:**  
+  - Using built-in and custom middleware for validation, parsing, and error handling
+  - Applying CORS for cross-origin requests
+  - Using body-parser for form and JSON data
 
-## Example Endpoints
-- `/api/hello` – returns a greeting message
-- `/api/:date?` – returns a timestamp and UTC date
-- `/api/whoami` – returns IP address, language, and software info
+- **Data Validation:**  
+  - Validating input data (URLs, dates, etc.)
+  - Handling errors and sending appropriate responses
+
+- **File Uploads:**  
+  - Handling multipart/form-data with Multer
+  - Extracting file metadata
+
+- **Short URL Service:**  
+  - Generating and storing short URLs in memory
+  - Redirecting users to original URLs
+
+- **Header Parsing:**  
+  - Extracting client information from request headers (IP, language, software)
+
+- **Exercise Tracker:**  
+  - Managing users and exercise logs in memory
+  - Filtering and limiting results with query parameters
+
+- **Timestamp Microservice:**  
+  - Parsing and validating dates from URL parameters
+  - Returning Unix and UTC formats
+
+- **Swagger Documentation:**  
+  - Auto-generating API docs with Swagger JSDoc and Swagger UI
+
+- **MongoDB & Mongoose:**  
+  - Connecting to MongoDB Atlas
+  - Defining schemas and models
+  - Performing CRUD operations
+
+- **Environment Variables:**  
+  - Using `.env` files for configuration
+
+- **Version Control:**  
+  - Using Git and GitHub for project management
+
+---
+
+## Projects Included
+
+- **Timestamp Microservice**
+- **Header Parser Microservice**
+- **URL Shortener Microservice**
+- **Exercise Tracker**
+- **File Metadata Microservice**
+- **MongoDB & Mongoose Challenges**
+
+Each project is in its own folder and can be run independently.
+
+---
 
 ## How to Run
-1. Install dependencies: `npm install`
-2. Start the server: `node index.js` or `npm start`
-3. Access endpoints in your browser or with Postman
+
+1. Install dependencies:  
+   ```
+   npm install
+   ```
+2. Start the server:  
+   ```
+   npm start
+   ```
+3. Access endpoints in your browser or with Postman.
+
+---
 
 ## Useful Links
+
 - [FreeCodeCamp Backend Certification](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 - [Express Documentation](https://expressjs.com/)
 - [Node.js Documentation](https://nodejs.org/en/docs/)
+- [MongoDB Documentation](https://www.mongodb.com/docs/)
+- [Swagger Documentation](https://swagger.io/docs/)
 
 ---
-This certification demonstrates solid backend skills with Node.js and Express, including modern API features and best practices.
+
+**This certification demonstrates practical backend skills, API design, data validation, documentation, and integration with databases and
