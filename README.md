@@ -99,3 +99,7 @@ Each project is in its own folder and can be run independently.
 ---
 
 **This certification demonstrates practical backend skills, API design, data validation, documentation, and integration with databases and
+
+## Certification
+
+![FreeCodeCamp Backend Certification](./certificat.png)
