@@ -32,7 +32,7 @@ app.get('/api/whoami', (req, res) => {
 
   
   let result = {
-    ip: ip,
+    ipaddress : ip,
     language: language,
     software: software
   };
