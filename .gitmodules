@@ -1,0 +1,3 @@
+[submodule "project-headerparser"]
+	path = project-headerparser
+	url = https://github.com/freeCodeCamp/boilerplate-project-headerparser.git
