@@ -78,7 +78,7 @@ Each project is in its own folder and can be run independently.
 
 ## Deployment
 
-All projects were also deployed and tested using [Replit]([https://replit.com/](https://replit.com/@simioniucionut)), allowing public API access and automated FreeCodeCamp testing.
+All projects were also deployed and tested using [Replit](https://replit.com/@simioniucionut), allowing public API access and automated FreeCodeCamp testing.
 
 ---
 
